@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1>Basic jquery</h1>
+    <div id="main-container">
+        <div id="paragraph-container">
+            <p id="par">We're going to make a program that looks like Microsoft Word.
+                There will be one paragrah and a bunch of buttons.
+                Each button will have an onclick attribute that will link to a different javascript function.
+                Thse buttons will have unique names and should do the following :
+                -one button to make the paragraph bold
+                -one button to make the paragraph italic
+                -one button to make the paragraph underlined
+                -one dropdown list that will have a bunch of fonts, and when you click on one the paragraph’s font will
+                change
+                to it.
+                - one dropdown list that will have a bunch of numbers (choose whatever you want) and when you click on
+                it
+                the
+                paragraph’s font size changes to that.
+                All these buttons will be in one line and above the paragraph.
+                You are free to make the styling like you want.</p>
+        </div>
+    </div>
+    <div id="button-container">
+        
+   
+    <div class="button">
+        <button id="gras"> bold</button>
+        <button id="italic">italic</button>
+        <button id="underline"> underline</button>
+
+
+        <label for="police">Font:</label>
+        <select name="police" id="police">
+            <option selected value="Calibri">Calibri</option>
+            <option value="Arial Rounded MT Bold">Arial Rounded MT Bold</option>
+            <option value="Coral Pen">Coral Pen</option>
+            <option value="Futura">Futura</option>
+        </select>
+
+        <label for="taille">font-size:</label>
+        <select name="taille" id="taille">
+            <option selected value="15px">15px</option>
+            <option value="16px">16px</option>
+            <option value="17px">17px</option>
+            <option value="18px">18px</option>
+        </select>
+    </div>
+ </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="main.js"></script>
+
+</html>
